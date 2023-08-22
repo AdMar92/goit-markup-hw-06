@@ -73,7 +73,73 @@
               <h3 class="order-title">
                 Leave your contacts and we will call you back
               </h3>
-              <form></form>
+              <form name="order-form" class="order-form">
+                <label for="clientname">Name</label>
+                <div class="input-wrapper">
+                  <svg width="18" height="24" class="input-icon">
+                    <use href="./images/icons.svg#icon-person-black"></use>
+                  </svg>
+                  <input
+                    type="text"
+                    name="clientname"
+                    id="clientname"
+                    required=""
+                  />
+                </div>
+                <label for="phonenumber">Phone</label>
+                <div class="input-wrapper">
+                  <svg width="18" height="24" class="input-icon">
+                    <use href="./images/icons.svg#icon-phone-black"></use>
+                  </svg>
+                  <input
+                    type="number"
+                    name="phonenumber"
+                    id="phonenumber"
+                    required=""
+                  />
+                </div>
+                <label for="clientemail">Email</label>
+                <div class="input-wrapper">
+                  <svg width="18" height="24" class="input-icon">
+                    <use href="./images/icons.svg#icon-email-black"></use>
+                  </svg>
+                  <input
+                    type="email"
+                    name="clientemail"
+                    id="clientemail"
+                    required=""
+                  />
+                </div>
+                <label for="comment">Comment</label>
+                <div class="input-wrapper">
+                  <textarea
+                    name="comment"
+                    id="comment"
+                    placeholder="Text input"
+                    rows="10"
+                    wrap="hard"
+                  ></textarea>
+                </div>
+                <div class="tc-group">
+                  <label class="tc-label" for="termsandcond">
+                    <input
+                      class="tc-checkbox"
+                      type="checkbox"
+                      name="termsandcond"
+                      id="termsandcond"
+                      required=""
+                    />
+                    <svg width="18" height="18" class="tc-icon">
+                      <use href="./images/icons.svg#icon-property-1"></use>
+                    </svg>
+                    I accept the terms and conditions of the
+                    <a href="#" class="termsandcond-link"
+                      >Privacy Policy</a
+                    ></label
+                  >
+                </div>
+                <button type="submit" class="send-button">Send</button>
+              </form>
             </div>
           </div>
         </div>
