@@ -513,6 +513,47 @@ ul {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
+.subscribe-form {
+  display: flex;
+}
+
+.email-input {
+  color: var(--WHITE);
+  background-color: var(--NAVY-BLUE);
+  width: 265px;
+  height: 40px;
+  margin-right: 24px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-subscribe {
+  width: 164px;
+  height: 40px;
+  border-style: none;
+  border-radius: 4px;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  transition: var(--transition2);
+  fill: var(--WHITE);
+}
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+  background-color: var(--OCEAN);
+}
+
 .icons-item-footer {
   height: 40px;
   width: 40px;
@@ -541,6 +582,11 @@ ul {
   width: 104px;
   height: 56px;
 }
+
+.footer-subscribe {
+  padding-left: 80px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
