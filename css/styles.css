@@ -528,6 +528,7 @@ ul {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  gap: 24px;
   width: 264px;
   height: 40px;
   margin-right: 24px;
@@ -546,7 +547,6 @@ ul {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   background-color: var(--IRIS);
   color: var(--WHITE);
   font-weight: 500;
