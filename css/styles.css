@@ -529,6 +529,7 @@ ul {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  gap: 24px;
   width: 264px;
   height: 40px;
   padding: 8px 16px;
