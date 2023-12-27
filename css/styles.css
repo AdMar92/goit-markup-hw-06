@@ -515,14 +515,11 @@ ul {
 }
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-label {
   display: flex;
-}
-
-.subscribe-label > input {
-  gap: 24px;
 }
 
 .email-input {
@@ -532,10 +529,8 @@ ul {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  gap: 24px;
   width: 264px;
   height: 40px;
-  margin-right: 24px;
   padding: 8px 16px;
   border-radius: 4px;
   border: 1px solid var(--WHITE);
