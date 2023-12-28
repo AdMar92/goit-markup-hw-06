@@ -765,7 +765,7 @@ ul {
   color: var(--LIGHT-SLATE);
 }
 
-.privacy-link {
+.privacy-icon {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -777,4 +777,8 @@ ul {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.privacy-link {
+  color: var(--IRIS);
+  text-decoration: underline;
 }
