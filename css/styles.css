@@ -702,6 +702,9 @@ ul {
   padding-left: 38px;
   outline: transparent;
   transition: var(--transition3);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 .wrapper-name {
   position: relative;
